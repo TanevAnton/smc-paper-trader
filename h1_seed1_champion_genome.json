@@ -1,0 +1,54 @@
+{
+  "genome": {
+    "swing_n": 5,
+    "min_fvg_pct": 0.001100686233634937,
+    "rr_partial": 1.7757500664725425,
+    "rr_runner": 2.1745310673616913,
+    "stop_buf": 1.1646822386027111,
+    "atr_n": 28,
+    "ema_n": 179,
+    "max_hold_bars": 186,
+    "max_bars_after_bos": 28,
+    "risk_per_trade": 0.003251984964898041,
+    "allow_short": true,
+    "use_pd_filter": false,
+    "use_trend_filter": false,
+    "use_cooldown": true,
+    "use_session_confluence": false,
+    "flatten_at_session_close": false,
+    "no_entries_before_min": 621,
+    "no_new_entries_after_min": 912
+  },
+  "train": {
+    "sharpe": 2.5650947470104124,
+    "sortino": 2.9185119303890086,
+    "max_dd": -0.022231733429085354,
+    "slice_ret": 0.17492400593230095,
+    "n_trades": 85,
+    "win_rate": 0.5764705882352941,
+    "profit_factor": 2.4109822806115293,
+    "expectancy": 21.303176470588234,
+    "net_pnl": 1810.77
+  },
+  "holdout": {
+    "sharpe": 0.7299961010817511,
+    "sortino": 0.664657222131918,
+    "max_dd": -0.024595631349477398,
+    "slice_ret": 0.020803172218087473,
+    "n_trades": 42,
+    "win_rate": 0.40476190476190477,
+    "profit_factor": 1.2301973119816987,
+    "expectancy": 5.366666666666666,
+    "net_pnl": 225.39999999999998
+  },
+  "config": {
+    "pop": 100,
+    "elite": 10,
+    "gens": 15,
+    "objective": "sortino",
+    "train_frac": 0.7,
+    "min_trades": 40,
+    "seed": 1
+  },
+  "cli": "python smc_intraday.py --csv QQQ_5m.csv --swing-n 5 --min-fvg-pct 0.0011 --rr-partial 1.78 --rr-runner 2.17 --stop-buf 1.16 --atr-n 28 --ema-n 179 --max-hold-bars 186 --max-bars-after-bos 28 --risk 0.0033 --no-entries-before-min 621 --no-new-entries-after-min 912 --no-pd-filter --no-trend-filter --no-session-confluence"
+}

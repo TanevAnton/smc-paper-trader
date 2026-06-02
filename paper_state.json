@@ -1,0 +1,24 @@
+{
+  "ticker": "^NDX",
+  "go_live_date": "2026-06-03",
+  "risk": 0.05,
+  "config": {
+    "swing_n": 3,
+    "rr_runner": 5.0,
+    "rr_partial": 1.0,
+    "max_bars_after_bos": 20,
+    "min_fvg_pct": 0.001,
+    "allow_short": false,
+    "use_trend_filter": true,
+    "cost_bps": 5.0
+  },
+  "journal": [
+    {
+      "date": "2026-06-03",
+      "last_bar": "2026-06-02",
+      "position": "FLAT",
+      "action": "no fill \u2014 flat, watching for setup",
+      "paper_equity": 10000.0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+name: paper-trade
+
+# Runs the frozen SMC long-only paper tracker every US trading day, in GitHub's
+# cloud — your machine does NOT need to be on. It fetches the latest daily bar,
+# updates the paper account, and commits paper_state.json + PAPER_LOG.md back.
+
+on:
+  schedule:
+    # 23:10 UTC, Mon–Fri ≈ 19:10 ET (EDT) / 18:10 ET (EST): safely after the
+    # 16:00 ET close so the day's daily bar is final. GitHub may delay cron a
+    # few minutes under load — fine for a daily strategy.
+    - cron: "10 23 * * 1-5"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write          # allow the job to commit the updated state back
+
+concurrency:
+  group: paper-trade
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run paper trader
+        run: python paper_trader.py --ticker '^NDX' --risk 0.05
+
+      - name: Commit updated state
+        run: |
+          git config user.name "paper-trader-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add paper_state.json PAPER_LOG.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "paper-trade: update $(date -u +'%Y-%m-%d')"
+            git push
+          fi

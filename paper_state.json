@@ -61,6 +61,13 @@
       "position": "FLAT (just exited)",
       "action": "EXITED (stop/trail) @ 28567.16, P&L $671.09",
       "paper_equity": 10278.11
+    },
+    {
+      "date": "2026-06-12",
+      "last_bar": "2026-06-11",
+      "position": "FLAT",
+      "action": "no fill \u2014 flat, watching for setup",
+      "paper_equity": 10278.11
     }
   ]
 }

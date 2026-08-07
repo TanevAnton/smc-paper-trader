@@ -341,6 +341,13 @@
       "position": "FLAT",
       "action": "no fill \u2014 flat, watching for setup",
       "paper_equity": 10278.11
+    },
+    {
+      "date": "2026-08-07",
+      "last_bar": "2026-08-06",
+      "position": "FLAT",
+      "action": "no fill \u2014 flat, watching for setup",
+      "paper_equity": 10278.11
     }
   ]
 }

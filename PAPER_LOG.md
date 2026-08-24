@@ -2,7 +2,7 @@
 
 - **Strategy:** frozen SMC long-only (swing 3, RR 1/5, EMA200 filter, no shorts)
 - **Go-live:** 2026-06-03  | **Risk/trade:** 5%
-- **Latest update:** 2026-08-21
+- **Latest update:** 2026-08-24
 
 | Date | Last bar | Position | Paper equity | Action |
 |------|----------|----------|--------------|--------|
@@ -64,5 +64,6 @@
 | 2026-08-19 | 2026-08-18 | FLAT | $10,278.11 | no fill — flat, watching for setup |
 | 2026-08-20 | 2026-08-19 | FLAT | $10,278.11 | no fill — flat, watching for setup |
 | 2026-08-21 | 2026-08-20 | FLAT | $10,278.11 | no fill — flat, watching for setup |
+| 2026-08-24 | 2026-08-21 | FLAT | $10,278.11 | no fill — flat, watching for setup |
 
 _Auto-updated by the paper-trade workflow. Paper trading only — not financial advice._

@@ -439,6 +439,13 @@
       "position": "FLAT",
       "action": "no fill \u2014 flat, watching for setup",
       "paper_equity": 10278.11
+    },
+    {
+      "date": "2026-08-28",
+      "last_bar": "2026-08-27",
+      "position": "LONG",
+      "action": "ENTERED LONG @ 29468.33",
+      "paper_equity": 10381.49
     }
   ]
 }

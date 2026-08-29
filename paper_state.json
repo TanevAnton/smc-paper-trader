@@ -446,6 +446,13 @@
       "position": "LONG",
       "action": "ENTERED LONG @ 29468.33",
       "paper_equity": 10381.49
+    },
+    {
+      "date": "2026-08-29",
+      "last_bar": "2026-08-27",
+      "position": "LONG",
+      "action": "ENTERED LONG @ 29468.33",
+      "paper_equity": 10381.49
     }
   ]
 }

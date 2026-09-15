@@ -523,6 +523,13 @@
       "position": "LONG",
       "action": "HOLDING LONG (day 10, entered 2026-08-27)",
       "paper_equity": 10203.34
+    },
+    {
+      "date": "2026-09-15",
+      "last_bar": "2026-09-14",
+      "position": "LONG",
+      "action": "HOLDING LONG (day 11, entered 2026-08-27)",
+      "paper_equity": 10045.96
     }
   ]
 }

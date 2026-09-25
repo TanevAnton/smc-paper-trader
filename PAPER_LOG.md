@@ -2,7 +2,7 @@
 
 - **Strategy:** frozen SMC long-only (swing 3, RR 1/5, EMA200 filter, no shorts)
 - **Go-live:** 2026-06-03  | **Risk/trade:** 5%
-- **Latest update:** 2026-09-24
+- **Latest update:** 2026-09-25
 
 | Date | Last bar | Position | Paper equity | Action |
 |------|----------|----------|--------------|--------|
@@ -87,5 +87,6 @@
 | 2026-09-22 | 2026-09-21 | LONG | $10,851.23 | HOLDING LONG (day 16, entered 2026-08-27) |
 | 2026-09-23 | 2026-09-22 | LONG | $10,932.78 | HOLDING LONG (day 17, entered 2026-08-27) |
 | 2026-09-24 | 2026-09-23 | LONG | $10,847.29 | HOLDING LONG (day 17, entered 2026-08-27) |
+| 2026-09-25 | 2026-09-24 | LONG | $10,850.09 | HOLDING LONG (day 18, entered 2026-08-27) |
 
 _Auto-updated by the paper-trade workflow. Paper trading only — not financial advice._

@@ -656,6 +656,13 @@
       "position": "LONG",
       "action": "HOLDING LONG (day 29, entered 2026-08-27)",
       "paper_equity": 10930.63
+    },
+    {
+      "date": "2026-10-10",
+      "last_bar": "2026-10-09",
+      "position": "FLAT (just exited)",
+      "action": "EXITED (timeout) @ 30883.15, P&L $1316.03",
+      "paper_equity": 10976.91
     }
   ]
 }

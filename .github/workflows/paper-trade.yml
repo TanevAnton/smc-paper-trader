@@ -34,14 +34,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run paper trader
-        run: python paper_trader.py --ticker '^NDX' --risk 0.05
+      # The v2 tracker (paper_trader.py) was retired on 2026-10-12: its engine had
+      # a look-ahead bias. Its final journal is kept in PAPER_LOG.md.
+      - name: Run v3 paper tracker
+        run: python smc_v3.py track --ticker '^NDX'
 
       - name: Commit updated state
         run: |
           git config user.name "paper-trader-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add paper_state.json PAPER_LOG.md
+          git add paper_state_v3.json PAPER_LOG_V3.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

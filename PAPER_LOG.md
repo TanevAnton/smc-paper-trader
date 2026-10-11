@@ -1,5 +1,10 @@
 # Paper-trading journal — ^NDX
 
+> **RETIRED 2026-10-12.** This tracker ran the v2 SMC engine, which had a
+> look-ahead bias (entries used the same bar's close and low). Its +9.8% here
+> is not achievable as recorded; rebuilt honestly, the same period was roughly
+> flat. Kept as a frozen record. The current tracker is in `PAPER_LOG_V3.md`.
+
 - **Strategy:** frozen SMC long-only (swing 3, RR 1/5, EMA200 filter, no shorts)
 - **Go-live:** 2026-06-03  | **Risk/trade:** 5%
 - **Latest update:** 2026-10-10

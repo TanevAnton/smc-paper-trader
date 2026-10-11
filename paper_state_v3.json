@@ -1,0 +1,16 @@
+{
+  "ticker": "^NDX",
+  "go_live_date": "2026-10-12",
+  "strategy": "v3 regime core: 8 trend rules + 20% vol target, cap 1.0x",
+  "journal": [
+    {
+      "date": "2026-10-12",
+      "last_bar": "2026-10-09",
+      "exposure_next": 1.0,
+      "rules_up": "8/8",
+      "action": "hold",
+      "paper_equity": 10000.0,
+      "buyhold_equity": 10000.0
+    }
+  ]
+}

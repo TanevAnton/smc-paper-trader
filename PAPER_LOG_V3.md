@@ -2,7 +2,7 @@
 
 - **Strategy:** v3 regime core: 8 trend rules + 20% vol target, cap 1.0x
 - **Go-live:** 2026-10-12  (decide at close, act at next open)
-- **Latest:** 2026-10-14 close 29,950.82 — paper $9,697.45 vs buy & hold $9,698.11
+- **Latest:** 2026-10-15 close 29,935.59 — paper $9,694.43 vs buy & hold $9,693.18
 
 | Date | Last bar | Rules up | Exposure next | Action | Paper equity | Buy & hold |
 |---|---|---|---|---|---|---|
@@ -10,5 +10,6 @@
 | 2026-10-13 | 2026-10-12 | 8/8 | 100% | hold | $9,929.14 | $9,929.26 |
 | 2026-10-14 | 2026-10-13 | 8/8 | 100% | hold | $9,898.77 | $9,898.43 |
 | 2026-10-15 | 2026-10-14 | 8/8 | 100% | hold | $9,697.45 | $9,698.11 |
+| 2026-10-16 | 2026-10-15 | 8/8 | 100% | hold | $9,694.43 | $9,693.18 |
 
 _Paper trading only — not financial advice._

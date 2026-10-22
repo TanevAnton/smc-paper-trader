@@ -74,6 +74,15 @@
       "action": "hold",
       "paper_equity": 9556.99,
       "buyhold_equity": 9548.99
+    },
+    {
+      "date": "2026-10-22",
+      "last_bar": "2026-10-21",
+      "exposure_next": 1.0,
+      "rules_up": "8/8",
+      "action": "hold",
+      "paper_equity": 9664.38,
+      "buyhold_equity": 9656.57
     }
   ]
 }

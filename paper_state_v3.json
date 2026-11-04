@@ -155,6 +155,15 @@
       "action": "sell 11% at next open",
       "paper_equity": 9114.6,
       "buyhold_equity": 9063.14
+    },
+    {
+      "date": "2026-11-04",
+      "last_bar": "2026-11-03",
+      "exposure_next": 0.442,
+      "rules_up": "4/8",
+      "action": "buy 11% at next open",
+      "paper_equity": 9139.02,
+      "buyhold_equity": 9124.8
     }
   ]
 }

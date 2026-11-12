@@ -209,6 +209,15 @@
       "action": "hold",
       "paper_equity": 8981.51,
       "buyhold_equity": 8982.5
+    },
+    {
+      "date": "2026-11-12",
+      "last_bar": "2026-11-11",
+      "exposure_next": 0.281,
+      "rules_up": "4/8",
+      "action": "buy 14% at next open",
+      "paper_equity": 9012.1,
+      "buyhold_equity": 9187.62
     }
   ]
 }
